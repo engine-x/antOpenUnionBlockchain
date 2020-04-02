@@ -15,14 +15,14 @@ This package builds upon the fact that a correct pair of accessId and AccessKey 
 How to initialize the module with the correct data.
 
 ```javascript
-const antblc = require('antOpenUnionBlockchain');
+const ant = require('antOpenUnionBlockchain');
 
 const options = {
 	AccessId: "AEVMeqalDIMMPKLX", 
 	AccessKey: "./access.key" //控制台下载的access.key 文件内需要将 -----BEGIN BEGIN PRIVATE KEY----- 及 -----END BEGIN PRIVATE KEY----- 替换为 -----BEGIN PRIVATE KEY----- 和 -----END PRIVATE KEY-----
 };
 
-const antblc = new antOpenUnionBlockchain(options, (err, result) => {
+const antblc = new ant(options, (err, result) => {
 	if(err) throw err;
 	console.log(result); 
 	// Configured successfully
