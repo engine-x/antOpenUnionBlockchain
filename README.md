@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install antOpenUnionBlockchain
+npm install ant-openunion-blockchain
 ```
 
 ## Requirements
@@ -15,7 +15,7 @@ This package builds upon the fact that a correct pair of accessId and AccessKey 
 How to initialize the module with the correct data.
 
 ```javascript
-const ant = require('antOpenUnionBlockchain');
+const ant = require('ant-openunion-blockchain');
 
 const options = {
 	AccessId: "AEVMeqalDIMMPKLX", 
