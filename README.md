@@ -61,7 +61,7 @@ antblc.callApi("api/contract/chainCallForBiz",options, (err, result) => {
 异步调用solidity合约
 ```javascript
 let callContractPostData={"orderId":"uniqueOrderid","bizid":"a00e36c5","account":"链上账户名","contractName":"contractName","methodSignature":"testfunc(uint256)","outTypes":"[bool]","requestStr":"[1001]","tenantid":"tenantid","mykmsKeyId":"mykmsKeyId","method":"CALLCONTRACTBIZASYNC","accessId":"accessId","token":"token got from shakeHand","gas":120000}
-antblc.callApi("api/contract/chainCallForBiz",options, (err, result) => {
+antblc.callApi("api/contract/chainCallForBiz",callContractPostData, (err, result) => {
 	if(err) throw err;
 	console.log(result)
 	//返回数据
