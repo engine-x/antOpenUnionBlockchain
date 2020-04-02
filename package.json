@@ -1,0 +1,23 @@
+{
+  "name": "antOpenUnionBlockchain",
+  "version": "1.0.0",
+  "description": "NPM module for acquiring response from the Ant Open Union Blockchain Rest API without form authentication hassle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:engine-x/antOpenUnionBlockchain.git"
+  },
+  "author": "engine-x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/engine-x/antOpenUnionBlockchain/issues"
+  },
+  "homepage": "https://github.com/engine-x/antOpenUnionBlockchain#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.88.2"
+  }
+}
